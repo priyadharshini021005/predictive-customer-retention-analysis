@@ -1,0 +1,18 @@
+check_name	completed_orders	completed_customers	completed_revenue	result
+base_completed_profile	35500	7247	54706775.88	PASS
+check_name	month_count	monthly_orders	monthly_revenue	result
+monthly_totals_reconcile_to_base	24	35500	54706775.88	PASS
+check_name	channel_revenue	base_revenue	result
+channel_revenue_reconcile_to_base	54706775.88	54706775.88	PASS
+check_name	payment_revenue	base_revenue	result
+payment_revenue_reconcile_to_base	54706775.88	54706775.88	PASS
+check_name	category_revenue	base_revenue	result
+category_revenue_reconcile_to_base	54706775.88	54706775.88	PASS
+check_name	grouped_customers	completed_customers	grouped_revenue	completed_revenue	result
+customer_frequency_bands_reconcile	7247	7247	54706775.88	54706775.88	PASS
+check_name	grouped_orders	completed_orders	grouped_revenue	completed_revenue	result
+order_value_bands_reconcile	35500	35500	54706775.88	54706775.88	PASS
+check_name	calendar_months	completed_orders	revenue	result
+month_of_year_pattern_reconcile	12	35500	54706775.88	PASS
+check_name	views_created	routines_created	result
+PROHIBITED_PHASE4_OBJECT_CHECK	0	0	PASS

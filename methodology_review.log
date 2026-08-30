@@ -1,0 +1,24 @@
+check_id	rfm_customers	customers_with_eligible_purchase	result
+1_rfm_customer_eligibility	7069	7069	PASS
+check_id	zero_purchase_customers	zero_purchase_customers_in_rfm	result
+2_zero_purchase_exclusion	931	0	PASS
+check_id	rfm_segment	customer_count	customer_percentage	result
+3_rfm_segment_counts	Needs Attention	2655	37.56	PASS
+3_rfm_segment_counts	Champions	1743	24.66	PASS
+3_rfm_segment_counts	Loyal Customers	943	13.34	PASS
+3_rfm_segment_counts	At Risk	760	10.75	PASS
+3_rfm_segment_counts	Potential Loyalists	641	9.07	PASS
+3_rfm_segment_counts	High Value At Risk	201	2.84	PASS
+3_rfm_segment_counts	New Customers	126	1.78	PASS
+check_id	eligible_customers	repeat_customers	one_order_customers	repeat_retention_percentage	result
+4_period_repeat_retention	7069	4745	2324	67.12	PASS
+check_id	retained_customers	cohort_customers	weighted_rate	complete_cohorts	all_cohorts	result
+5_weighted_month1_retention	1735	6927	25.05	23	23	PASS
+check_id	eligible_order_count	excluded_completed_chronology_orders	result
+6_eligibility_rule	35017	483	PASS
+check_id	exception_orders	exception_customers	exception_line_revenue	earliest_exception_order_date	latest_exception_order_date	result
+7_chronology_exceptions_unchanged	557	404	834047.20	2025-05-31	2025-11-20	PASS
+check_id	eligible_completed_orders	rfm_frequency_sum	eligible_completed_revenue	rfm_monetary_sum	result
+8_rfm_frequency_monetary_reconciliation	35017	35017	53997988.41	53997988.41	PASS
+check_id	views_created	routines_created	result
+scope_boundary	0	0	PASS

@@ -1,0 +1,28 @@
+check_id	observed_value	expected_value	result
+01_required_view_count	14	14	PASS
+check_id	view_rows	distinct_customers	expected_rows	result
+02_customer_dimension_grain	8000	8000	8000	PASS
+check_id	view_rows	distinct_products	expected_rows	result
+03_product_dimension_grain	180	180	180	PASS
+check_id	mart_orders	source_eligible_orders	row_difference	result
+04_order_fact_grain_and_reconciliation	35017	35017	0	PASS
+check_id	mart_order_items	source_eligible_order_items	row_difference	result
+05_order_item_fact_grain_and_reconciliation	102387	102387	0	PASS
+check_id	mart_order_revenue	mart_item_revenue	source_revenue	result
+06_line_revenue_reconciliation	53997988.41	53997988.41	53997988.41	PASS
+check_id	customer_summary_rows	eligible_customers	zero_purchase_customers	result
+07_customer_summary_population	8000	7069	931	PASS
+check_id	rfm_rows	distinct_rfm_customers	rfm_frequency_sum	rfm_monetary_sum	result
+08_rfm_view_reconciliation	7069	7069	35017	53997988.41	PASS
+check_id	risk_rows	distinct_risk_customers	high_risk_customers	medium_risk_customers	low_risk_customers	churn_candidates	null_or_blank_reasons	result
+09_risk_view_reconciliation	7069	7069	2647	1305	3117	2491	0	PASS
+check_id	monthly_rows	monthly_orders	monthly_revenue	first_month	last_month	result
+10_monthly_retention_reconciliation	24	35017	53997988.41	2024-01-01	2025-12-01	PASS
+check_id	cohort_months	month0_cohorts	invalid_month0_rows	out_of_bounds_rows	month1_retained_customers	complete_month1_customers	weighted_month1_retention_rate	result
+11_cohort_retention_reconciliation	24	24	0	0	1735	6927	25.05	PASS
+check_id	channels	payment_methods	categories	products_with_sales	channel_revenue	payment_revenue	category_revenue	product_revenue	result
+12_channel_category_product_reconciliation	4	4	12	180	53997988.41	53997988.41	53997988.41	53997988.41	PASS
+check_id	eligible_orders	eligible_customers	eligible_revenue	zero_purchase_customers	repeat_customers	period_repeat_retention_rate	month_1_retained_customers	complete_month_1_cohort_customers	weighted_month_1_retention_rate	high_risk_customers	medium_risk_customers	low_risk_customers	churn_candidates	chronology_exception_orders	chronology_exception_customers	result
+13_kpi_summary_reconciliation	35017	7069	53997988.41	931	4745	67.12	1735	6927	25.05	2647	1305	3117	2491	557	404	PASS
+check_id	routines_created	raw_base_tables	lifecycle_rule	result
+14_scope_and_rule_check	0	4	is_eligible = 1 AND order_date >= signup_date	PASS

@@ -1,0 +1,28 @@
+section
+view_row_counts
+view_name	row_count
+vw_pbi_dim_customer	8000
+vw_pbi_dim_product	180
+vw_pbi_fact_order	35017
+vw_pbi_fact_order_item	102387
+vw_pbi_customer_summary	8000
+vw_pbi_rfm	7069
+vw_pbi_customer_risk	7069
+vw_pbi_monthly_retention	24
+vw_pbi_cohort_retention	300
+vw_pbi_channel_performance	4
+vw_pbi_payment_performance	4
+vw_pbi_category_performance	12
+vw_pbi_product_performance	180
+vw_pbi_kpi_summary	1
+section
+raw_table_counts
+table_name	row_count
+customers	8000
+products	180
+orders	40000
+order_items	116953
+section
+chronology_exceptions
+exception_orders	exception_customers
+557	404

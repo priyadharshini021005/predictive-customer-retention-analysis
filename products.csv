@@ -1,0 +1,181 @@
+﻿product_id,sku,product_name,category,unit_price,cost_price,launch_date,product_status
+1,SKU-00001,Electronics 01,Electronics,784.44,561.38,01-01-2023,Active
+2,SKU-00002,Electronics 02,Electronics,645.05,418.77,01-01-2023,Active
+3,SKU-00003,Electronics 03,Electronics,653.72,320.9,01-01-2023,Active
+4,SKU-00004,Electronics 04,Electronics,170.24,113.1,01-01-2023,Active
+5,SKU-00005,Electronics 05,Electronics,631.63,342.32,01-01-2023,Active
+6,SKU-00006,Electronics 06,Electronics,582.88,347.36,01-01-2023,Active
+7,SKU-00007,Electronics 07,Electronics,139.25,79.9,01-01-2023,Active
+8,SKU-00008,Electronics 08,Electronics,119,87.75,01-01-2023,Active
+9,SKU-00009,Electronics 09,Electronics,445.49,217.65,01-01-2023,Active
+10,SKU-00010,Electronics 10,Electronics,679.85,518.59,01-01-2023,Active
+11,SKU-00011,Electronics 11,Electronics,731.47,485.03,01-01-2023,Active
+12,SKU-00012,Electronics 12,Electronics,382.07,277.07,01-01-2023,Active
+13,SKU-00013,Electronics 13,Electronics,281.2,158.24,17-02-2024,Active
+14,SKU-00014,Electronics 14,Electronics,252.77,139.36,08-04-2024,Active
+15,SKU-00015,Electronics 15,Electronics,849.35,539.69,30-05-2024,Active
+16,SKU-00016,Home & Kitchen 01,Home & Kitchen,100.05,53.96,23-01-2023,Active
+17,SKU-00017,Home & Kitchen 02,Home & Kitchen,393.31,234.5,12-07-2024,Active
+18,SKU-00018,Home & Kitchen 03,Home & Kitchen,325.63,199.67,16-11-2023,Active
+19,SKU-00019,Home & Kitchen 04,Home & Kitchen,89.64,47.72,18-10-2023,Discontinued
+20,SKU-00020,Home & Kitchen 05,Home & Kitchen,45.98,23.43,12-09-2023,Discontinued
+21,SKU-00021,Home & Kitchen 06,Home & Kitchen,383.14,236.14,14-05-2024,Active
+22,SKU-00022,Home & Kitchen 07,Home & Kitchen,256.09,160.38,24-04-2024,Active
+23,SKU-00023,Home & Kitchen 08,Home & Kitchen,319.83,159.57,06-06-2024,Active
+24,SKU-00024,Home & Kitchen 09,Home & Kitchen,84.36,44.99,17-04-2024,Active
+25,SKU-00025,Home & Kitchen 10,Home & Kitchen,395.31,279.24,03-06-2024,Active
+26,SKU-00026,Home & Kitchen 11,Home & Kitchen,237.54,142.49,25-06-2023,Active
+27,SKU-00027,Home & Kitchen 12,Home & Kitchen,289.88,148.49,21-07-2024,Active
+28,SKU-00028,Home & Kitchen 13,Home & Kitchen,100.99,51.43,01-08-2023,Active
+29,SKU-00029,Home & Kitchen 14,Home & Kitchen,55.35,35.89,23-05-2024,Active
+30,SKU-00030,Home & Kitchen 15,Home & Kitchen,64.7,42.78,30-09-2023,Active
+31,SKU-00031,Apparel 01,Apparel,189.7,139.58,19-11-2023,Active
+32,SKU-00032,Apparel 02,Apparel,136.37,103.04,12-10-2024,Active
+33,SKU-00033,Apparel 03,Apparel,146.52,112.2,30-10-2023,Active
+34,SKU-00034,Apparel 04,Apparel,163.1,105.67,30-12-2023,Active
+35,SKU-00035,Apparel 05,Apparel,201.51,126.55,13-03-2023,Active
+36,SKU-00036,Apparel 06,Apparel,68.53,50.44,18-02-2025,Active
+37,SKU-00037,Apparel 07,Apparel,182.06,88.79,12-01-2025,Discontinued
+38,SKU-00038,Apparel 08,Apparel,196.28,109.84,05-07-2023,Active
+39,SKU-00039,Apparel 09,Apparel,41.63,32.3,14-05-2023,Active
+40,SKU-00040,Apparel 10,Apparel,127.74,69.21,05-11-2024,Active
+41,SKU-00041,Apparel 11,Apparel,172.76,100.06,18-06-2024,Active
+42,SKU-00042,Apparel 12,Apparel,218.88,142.01,24-04-2023,Active
+43,SKU-00043,Apparel 13,Apparel,77.22,40.51,28-05-2023,Active
+44,SKU-00044,Apparel 14,Apparel,208.95,126.25,16-08-2024,Active
+45,SKU-00045,Apparel 15,Apparel,106.56,72.39,22-01-2025,Active
+46,SKU-00046,Beauty & Personal Care 01,Beauty & Personal Care,36.66,21.33,15-04-2023,Active
+47,SKU-00047,Beauty & Personal Care 02,Beauty & Personal Care,114.2,61.4,15-03-2024,Active
+48,SKU-00048,Beauty & Personal Care 03,Beauty & Personal Care,122.03,92.01,04-06-2023,Active
+49,SKU-00049,Beauty & Personal Care 04,Beauty & Personal Care,162.75,106.43,31-08-2024,Active
+50,SKU-00050,Beauty & Personal Care 05,Beauty & Personal Care,41.25,24.39,27-01-2025,Active
+51,SKU-00051,Beauty & Personal Care 06,Beauty & Personal Care,95.66,47.57,04-03-2024,Active
+52,SKU-00052,Beauty & Personal Care 07,Beauty & Personal Care,136.2,82.72,16-04-2024,Active
+53,SKU-00053,Beauty & Personal Care 08,Beauty & Personal Care,106.68,77.32,09-05-2024,Active
+54,SKU-00054,Beauty & Personal Care 09,Beauty & Personal Care,62.06,34.02,22-04-2024,Active
+55,SKU-00055,Beauty & Personal Care 10,Beauty & Personal Care,76.73,47.14,10-05-2024,Discontinued
+56,SKU-00056,Beauty & Personal Care 11,Beauty & Personal Care,39.7,20.33,22-04-2024,Active
+57,SKU-00057,Beauty & Personal Care 12,Beauty & Personal Care,67.88,49.72,31-03-2024,Active
+58,SKU-00058,Beauty & Personal Care 13,Beauty & Personal Care,130.05,88.82,13-06-2024,Active
+59,SKU-00059,Beauty & Personal Care 14,Beauty & Personal Care,11.84,7.08,10-02-2023,Active
+60,SKU-00060,Beauty & Personal Care 15,Beauty & Personal Care,24.1,12.58,15-11-2024,Active
+61,SKU-00061,Sports & Outdoors 01,Sports & Outdoors,163.84,109.13,03-01-2025,Active
+62,SKU-00062,Sports & Outdoors 02,Sports & Outdoors,278.79,154.45,21-08-2024,Active
+63,SKU-00063,Sports & Outdoors 03,Sports & Outdoors,179.51,117.05,29-12-2023,Active
+64,SKU-00064,Sports & Outdoors 04,Sports & Outdoors,65.78,40.09,23-02-2025,Active
+65,SKU-00065,Sports & Outdoors 05,Sports & Outdoors,495.18,262.93,07-06-2023,Discontinued
+66,SKU-00066,Sports & Outdoors 06,Sports & Outdoors,167.95,85.93,26-01-2024,Active
+67,SKU-00067,Sports & Outdoors 07,Sports & Outdoors,165.1,105,23-07-2023,Active
+68,SKU-00068,Sports & Outdoors 08,Sports & Outdoors,67.05,50.94,12-04-2024,Active
+69,SKU-00069,Sports & Outdoors 09,Sports & Outdoors,404.07,289.62,20-01-2025,Active
+70,SKU-00070,Sports & Outdoors 10,Sports & Outdoors,90.31,56.78,12-05-2024,Active
+71,SKU-00071,Sports & Outdoors 11,Sports & Outdoors,464.53,308.88,11-09-2023,Active
+72,SKU-00072,Sports & Outdoors 12,Sports & Outdoors,388.73,221.34,04-10-2024,Discontinued
+73,SKU-00073,Sports & Outdoors 13,Sports & Outdoors,429.27,293.32,27-08-2024,Active
+74,SKU-00074,Sports & Outdoors 14,Sports & Outdoors,498.36,267.02,11-02-2024,Active
+75,SKU-00075,Sports & Outdoors 15,Sports & Outdoors,359.3,277.83,15-10-2024,Active
+76,SKU-00076,Books & Media 01,Books & Media,71.53,54.01,25-10-2023,Active
+77,SKU-00077,Books & Media 02,Books & Media,76.88,45.93,01-03-2025,Active
+78,SKU-00078,Books & Media 03,Books & Media,27.31,16.54,22-12-2024,Active
+79,SKU-00079,Books & Media 04,Books & Media,18.64,10.01,24-02-2024,Active
+80,SKU-00080,Books & Media 05,Books & Media,14.23,10.13,20-11-2023,Active
+81,SKU-00081,Books & Media 06,Books & Media,51.13,35.77,17-03-2024,Active
+82,SKU-00082,Books & Media 07,Books & Media,70.73,54.29,23-12-2024,Active
+83,SKU-00083,Books & Media 08,Books & Media,22.36,16.46,21-09-2024,Active
+84,SKU-00084,Books & Media 09,Books & Media,80.88,39.01,17-01-2024,Active
+85,SKU-00085,Books & Media 10,Books & Media,36.21,18.66,05-10-2024,Active
+86,SKU-00086,Books & Media 11,Books & Media,105.89,72.92,30-03-2025,Active
+87,SKU-00087,Books & Media 12,Books & Media,102.14,77.63,18-08-2024,Active
+88,SKU-00088,Books & Media 13,Books & Media,56.98,40.25,17-06-2023,Active
+89,SKU-00089,Books & Media 14,Books & Media,98.4,61.18,11-04-2024,Active
+90,SKU-00090,Books & Media 15,Books & Media,53.32,27.1,16-02-2025,Active
+91,SKU-00091,Toys & Games 01,Toys & Games,45.4,26.49,15-12-2024,Active
+92,SKU-00092,Toys & Games 02,Toys & Games,49.3,29.5,14-06-2024,Discontinued
+93,SKU-00093,Toys & Games 03,Toys & Games,195.95,128.07,09-02-2024,Active
+94,SKU-00094,Toys & Games 04,Toys & Games,212.77,123.37,02-02-2024,Active
+95,SKU-00095,Toys & Games 05,Toys & Games,195.45,125.67,21-02-2025,Discontinued
+96,SKU-00096,Toys & Games 06,Toys & Games,103.5,65.53,09-05-2024,Active
+97,SKU-00097,Toys & Games 07,Toys & Games,42.35,24.51,29-10-2024,Active
+98,SKU-00098,Toys & Games 08,Toys & Games,86.81,57.69,01-08-2023,Active
+99,SKU-00099,Toys & Games 09,Toys & Games,24.54,16.07,14-05-2023,Active
+100,SKU-00100,Toys & Games 10,Toys & Games,102.73,57.43,17-02-2023,Active
+101,SKU-00101,Toys & Games 11,Toys & Games,132.52,64.63,11-02-2024,Active
+102,SKU-00102,Toys & Games 12,Toys & Games,256.23,127.76,02-03-2023,Active
+103,SKU-00103,Toys & Games 13,Toys & Games,190.36,143.23,08-09-2024,Discontinued
+104,SKU-00104,Toys & Games 14,Toys & Games,68.38,42.94,23-10-2024,Active
+105,SKU-00105,Toys & Games 15,Toys & Games,189.36,144.16,22-03-2024,Active
+106,SKU-00106,Grocery & Gourmet 01,Grocery & Gourmet,92.28,57.12,27-07-2024,Active
+107,SKU-00107,Grocery & Gourmet 02,Grocery & Gourmet,11.93,8.86,23-02-2025,Active
+108,SKU-00108,Grocery & Gourmet 03,Grocery & Gourmet,73.09,53.97,19-01-2025,Active
+109,SKU-00109,Grocery & Gourmet 04,Grocery & Gourmet,21.72,11.65,15-12-2024,Active
+110,SKU-00110,Grocery & Gourmet 05,Grocery & Gourmet,27.86,13.63,29-05-2024,Active
+111,SKU-00111,Grocery & Gourmet 06,Grocery & Gourmet,50.27,31.06,23-02-2023,Active
+112,SKU-00112,Grocery & Gourmet 07,Grocery & Gourmet,27.52,13.34,11-02-2024,Active
+113,SKU-00113,Grocery & Gourmet 08,Grocery & Gourmet,38.9,28.72,05-01-2025,Active
+114,SKU-00114,Grocery & Gourmet 09,Grocery & Gourmet,29.7,22.63,27-06-2024,Active
+115,SKU-00115,Grocery & Gourmet 10,Grocery & Gourmet,91.5,64.29,02-12-2023,Active
+116,SKU-00116,Grocery & Gourmet 11,Grocery & Gourmet,48.88,24.71,27-01-2025,Active
+117,SKU-00117,Grocery & Gourmet 12,Grocery & Gourmet,82.18,56.82,12-08-2023,Discontinued
+118,SKU-00118,Grocery & Gourmet 13,Grocery & Gourmet,80.9,39.27,27-10-2024,Active
+119,SKU-00119,Grocery & Gourmet 14,Grocery & Gourmet,70.48,48.58,11-02-2024,Active
+120,SKU-00120,Grocery & Gourmet 15,Grocery & Gourmet,58.41,44.16,22-11-2024,Active
+121,SKU-00121,Pet Supplies 01,Pet Supplies,58.96,33.75,25-02-2025,Active
+122,SKU-00122,Pet Supplies 02,Pet Supplies,14.26,8.42,09-11-2024,Active
+123,SKU-00123,Pet Supplies 03,Pet Supplies,36.91,20.5,14-06-2024,Active
+124,SKU-00124,Pet Supplies 04,Pet Supplies,36.3,27.28,05-10-2023,Active
+125,SKU-00125,Pet Supplies 05,Pet Supplies,65.72,31.69,28-05-2023,Active
+126,SKU-00126,Pet Supplies 06,Pet Supplies,64.33,35.24,28-09-2024,Active
+127,SKU-00127,Pet Supplies 07,Pet Supplies,111.61,64.31,06-10-2023,Discontinued
+128,SKU-00128,Pet Supplies 08,Pet Supplies,46.57,32.68,28-10-2023,Active
+129,SKU-00129,Pet Supplies 09,Pet Supplies,146.74,89.86,03-09-2023,Active
+130,SKU-00130,Pet Supplies 10,Pet Supplies,32.26,21.72,11-01-2024,Active
+131,SKU-00131,Pet Supplies 11,Pet Supplies,8.99,5.03,06-08-2023,Active
+132,SKU-00132,Pet Supplies 12,Pet Supplies,113.54,55.09,13-08-2024,Active
+133,SKU-00133,Pet Supplies 13,Pet Supplies,151.43,117.71,26-07-2024,Active
+134,SKU-00134,Pet Supplies 14,Pet Supplies,46.78,25.64,22-09-2024,Active
+135,SKU-00135,Pet Supplies 15,Pet Supplies,49.07,30.32,23-12-2023,Active
+136,SKU-00136,Office & Stationery 01,Office & Stationery,86.69,59.33,01-11-2024,Active
+137,SKU-00137,Office & Stationery 02,Office & Stationery,48.66,28.01,17-04-2023,Active
+138,SKU-00138,Office & Stationery 03,Office & Stationery,85.15,56.27,04-09-2024,Active
+139,SKU-00139,Office & Stationery 04,Office & Stationery,96.93,50.58,15-04-2023,Active
+140,SKU-00140,Office & Stationery 05,Office & Stationery,80.87,40.72,09-10-2024,Active
+141,SKU-00141,Office & Stationery 06,Office & Stationery,74.42,43.17,25-07-2023,Active
+142,SKU-00142,Office & Stationery 07,Office & Stationery,52.88,33.29,26-07-2024,Active
+143,SKU-00143,Office & Stationery 08,Office & Stationery,61.69,34.1,07-07-2023,Active
+144,SKU-00144,Office & Stationery 09,Office & Stationery,97.88,76.08,01-02-2025,Active
+145,SKU-00145,Office & Stationery 10,Office & Stationery,18.06,9.83,17-12-2023,Active
+146,SKU-00146,Office & Stationery 11,Office & Stationery,28.96,18.15,01-06-2024,Active
+147,SKU-00147,Office & Stationery 12,Office & Stationery,68.46,41.86,10-09-2023,Active
+148,SKU-00148,Office & Stationery 13,Office & Stationery,42,29.65,05-01-2024,Active
+149,SKU-00149,Office & Stationery 14,Office & Stationery,12.22,8.87,16-03-2024,Active
+150,SKU-00150,Office & Stationery 15,Office & Stationery,64.97,45.74,16-01-2023,Active
+151,SKU-00151,Garden & Tools 01,Garden & Tools,112.58,58.69,09-03-2024,Active
+152,SKU-00152,Garden & Tools 02,Garden & Tools,304.15,199.2,09-02-2023,Active
+153,SKU-00153,Garden & Tools 03,Garden & Tools,270.19,137.63,31-12-2023,Active
+154,SKU-00154,Garden & Tools 04,Garden & Tools,156.3,103.71,02-05-2023,Active
+155,SKU-00155,Garden & Tools 05,Garden & Tools,48.02,25.56,26-11-2023,Active
+156,SKU-00156,Garden & Tools 06,Garden & Tools,273.52,134.26,20-06-2023,Active
+157,SKU-00157,Garden & Tools 07,Garden & Tools,351.75,214.83,25-11-2023,Discontinued
+158,SKU-00158,Garden & Tools 08,Garden & Tools,333.15,206.57,08-05-2023,Active
+159,SKU-00159,Garden & Tools 09,Garden & Tools,94.31,55.56,10-02-2025,Active
+160,SKU-00160,Garden & Tools 10,Garden & Tools,355.69,234.77,09-08-2023,Active
+161,SKU-00161,Garden & Tools 11,Garden & Tools,317.22,183.29,21-02-2025,Active
+162,SKU-00162,Garden & Tools 12,Garden & Tools,307.3,156.27,15-01-2025,Active
+163,SKU-00163,Garden & Tools 13,Garden & Tools,226.52,131.65,07-10-2023,Active
+164,SKU-00164,Garden & Tools 14,Garden & Tools,350.8,229.27,16-03-2025,Active
+165,SKU-00165,Garden & Tools 15,Garden & Tools,109.94,66.22,04-09-2024,Active
+166,SKU-00166,Travel & Accessories 01,Travel & Accessories,142.79,85.26,08-11-2023,Discontinued
+167,SKU-00167,Travel & Accessories 02,Travel & Accessories,284.99,184.9,16-04-2023,Discontinued
+168,SKU-00168,Travel & Accessories 03,Travel & Accessories,246.42,174.27,12-06-2024,Active
+169,SKU-00169,Travel & Accessories 04,Travel & Accessories,289.4,212.06,29-06-2023,Active
+170,SKU-00170,Travel & Accessories 05,Travel & Accessories,243.31,130,04-07-2024,Active
+171,SKU-00171,Travel & Accessories 06,Travel & Accessories,248.68,173.31,09-12-2023,Active
+172,SKU-00172,Travel & Accessories 07,Travel & Accessories,174.58,111.48,11-04-2024,Active
+173,SKU-00173,Travel & Accessories 08,Travel & Accessories,135.57,98.84,01-08-2023,Active
+174,SKU-00174,Travel & Accessories 09,Travel & Accessories,26.17,13.74,10-09-2024,Active
+175,SKU-00175,Travel & Accessories 10,Travel & Accessories,167.42,102.64,14-02-2023,Active
+176,SKU-00176,Travel & Accessories 11,Travel & Accessories,159.1,96.57,28-11-2023,Active
+177,SKU-00177,Travel & Accessories 12,Travel & Accessories,86.61,56.93,16-02-2024,Active
+178,SKU-00178,Travel & Accessories 13,Travel & Accessories,104.08,55.13,25-03-2024,Active
+179,SKU-00179,Travel & Accessories 14,Travel & Accessories,183.74,109.86,12-07-2023,Active
+180,SKU-00180,Travel & Accessories 15,Travel & Accessories,170.32,93.19,25-08-2023,Active

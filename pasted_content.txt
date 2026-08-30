@@ -1,0 +1,178 @@
+Phase 1 is approved.
+
+Now start **Phase 2 — Dataset Design and Generation** only.
+
+Do NOT create the MySQL database or SQL tables yet. Do NOT start Power BI yet.
+
+The objective of this phase is to design and generate a realistic, internally consistent dataset that will later be imported into MySQL for the project:
+
+**Predictive Customer Retention Analysis using SQL**
+
+## Dataset requirements
+
+Create these four core datasets:
+
+1. customers
+2. products
+3. orders
+4. order_items
+
+Target minimum data volume:
+
+* customers: 500+ records
+* products: 100+ records
+* orders: 5,000+ records
+* order_items: 10,000+ records
+
+Use at least 12 months of historical order data.
+
+## Customers dataset
+
+Include fields such as:
+
+* customer_id
+* customer_name
+* gender
+* age
+* city
+* state
+* signup_date
+* customer_segment
+
+Customer behavior must be realistic and varied.
+
+Include:
+
+* frequent customers
+* occasional customers
+* new customers
+* high-value customers
+* low-value customers
+* inactive customers
+* customers whose purchase activity declines
+* loyal customers
+
+## Products dataset
+
+Include:
+
+* product_id
+* product_name
+* category
+* sub_category
+* price
+
+Use realistic product names and categories.
+
+## Orders dataset
+
+Include:
+
+* order_id
+* customer_id
+* order_date
+* order_status
+* payment_method
+* total_amount
+
+Use realistic order statuses and payment methods.
+
+Make sure every customer_id in orders exists in customers.
+
+## Order Items dataset
+
+Include:
+
+* order_item_id
+* order_id
+* product_id
+* quantity
+* unit_price
+* discount
+* item_total
+
+Ensure:
+
+* every order_id exists in orders
+* every product_id exists in products
+* item_total is mathematically consistent
+* order total is consistent with its order items after discounts
+
+## Important behavioral requirements
+
+The dataset must support:
+
+* Recency analysis
+* Frequency analysis
+* Monetary analysis
+* RFM segmentation
+* Customer retention analysis
+* Churn/inactivity analysis
+* Purchase trend analysis
+* Behavioral customer risk scoring
+
+Do not generate completely random data.
+
+Create realistic purchasing patterns so that the later SQL analysis can identify meaningful customer segments and high-risk customers.
+
+For example:
+
+* some customers should have recent purchases
+* some should have old last-purchase dates
+* some should purchase frequently
+* some should purchase rarely
+* some should have high spending
+* some should show declining activity
+* some should remain consistently active
+
+## Data quality validation
+
+After generation, validate:
+
+* duplicate IDs
+* NULL values
+* invalid dates
+* invalid quantities
+* invalid prices
+* invalid foreign-key references
+* duplicate order items
+* inconsistent order totals
+* invalid statuses
+* invalid customer references
+* invalid product references
+
+Create a data-quality summary.
+
+## Required output
+
+Generate the four datasets as CSV files:
+
+customers.csv
+products.csv
+orders.csv
+order_items.csv
+
+Also create a dataset documentation file describing:
+
+* each dataset
+* each column
+* data type
+* meaning
+* expected relationships
+* number of records
+* date range
+* assumptions
+* validation results
+
+Do NOT proceed to database creation after this phase.
+
+At the end, provide:
+
+1. Generated file names
+2. Row counts
+3. Date range
+4. Relationship validation results
+5. Data-quality validation results
+6. Confirmation that the dataset is ready for MySQL import
+
+Stop after Phase 2 and wait for approval.

@@ -1,0 +1,18 @@
+check_name	eligible_orders	eligible_customers	eligible_revenue	min_date	max_date	result
+eligible_lifecycle_population	35017	7069	53997988.41	2024-01-01	2025-12-31	PASS
+check_name	excluded_completed_orders	excluded_customers	excluded_revenue	result
+chronology_exception_exclusion	483	375	708787.47	PASS
+check_name	rfm_customers	distinct_rfm_customers	summed_frequency	max_rfm_score	min_rfm_score	null_segments	result
+rfm_customer_reconciliation	7069	7069	35017	15	3	0	PASS
+check_name	summed_customer_monetary_value	eligible_revenue	min_frequency_score	max_frequency_score	min_monetary_score	max_monetary_score	result
+rfm_monetary_reconciliation	53997988.41	53997988.41	1	5	1	5	PASS
+check_name	eligible_customers	repeat_customers	one_order_customers	period_repeat_retention_rate	result
+period_repeat_retention	7069	4745	2324	67.12	PASS
+check_name	cohort_month_count	summed_cohort_size	eligible_customers	smallest_cohort	largest_cohort	result
+cohort_base_reconciliation	24	7069	7069	142	479	PASS
+check_name	out_of_bounds_rows	invalid_month0_rows	cohort_months_observed	result
+cohort_retention_bounds_and_month0	0	0	24	PASS
+check_name	all_cohorts	complete_cohorts	incomplete_cohorts	invalid_retained_counts	result
+month1_retention_completeness	24	23	1	0	PASS
+check_name	views_created	routines_created	result
+PHASE5_SCOPE_BOUNDARY	0	0	PASS

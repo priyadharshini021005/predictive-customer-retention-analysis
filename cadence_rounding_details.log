@@ -1,0 +1,9 @@
+customer_id	eligible_order_count	recency_days	raw_average_gap_days	implemented_average_gap_days	raw_cadence_ratio	implemented_cadence_ratio	raw_cadence_points	implemented_cadence_points	point_delta
+2199	14	45	44.9231	44.92	1.0017	1.00	8	0	-8
+4785	8	88	87.8571	87.86	1.0016	1.00	8	0	-8
+4827	13	21	20.9167	20.92	1.0040	1.00	8	0	-8
+4965	7	96	95.8333	95.83	1.0017	1.00	8	0	-8
+5839	2	277	276.0000	276.00	1.0036	1.00	8	0	-8
+6009	8	46	30.5714	30.57	1.5047	1.50	16	8	-8
+6502	12	33	32.9091	32.91	1.0028	1.00	8	0	-8
+6753	5	50	33.2500	33.25	1.5038	1.50	16	8	-8

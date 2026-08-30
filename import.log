@@ -1,0 +1,9 @@
+table_name	row_count
+stg_customers	8000
+stg_products	180
+stg_orders	40000
+stg_order_items	116953
+customers	8000
+products	180
+orders	40000
+order_items	116953

@@ -1,0 +1,2 @@
+check_id	repeat_customers_with_cadence	cadence_point_assignment_changes	ratio_value_changes	max_ratio_difference	result
+cadence_rounding_sensitivity	4745	8	4616	0.0065	REVIEW

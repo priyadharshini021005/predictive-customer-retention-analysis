@@ -1,0 +1,20 @@
+TEST: customer_status_check
+RETURN_CODE: 1
+ERROR 3819 (HY000) at line 1: Check constraint 'chk_customers_status' is violated.
+RESULT: PASS (invalid statement was rejected)
+
+TEST: order_item_line_total_check
+RETURN_CODE: 1
+ERROR 3819 (HY000) at line 1: Check constraint 'chk_order_items_line_total_reconciles' is violated.
+RESULT: PASS (invalid statement was rejected)
+
+TEST: order_customer_foreign_key
+RETURN_CODE: 1
+ERROR 1452 (23000) at line 1: Cannot add or update a child row: a foreign key constraint fails (`predictive_customer_retention`.`orders`, CONSTRAINT `fk_orders_customer` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`customer_id`))
+RESULT: PASS (invalid statement was rejected)
+
+TEST: product_cost_price_check
+RETURN_CODE: 1
+ERROR 3819 (HY000) at line 1: Check constraint 'chk_products_cost_below_price' is violated.
+RESULT: PASS (invalid statement was rejected)
+

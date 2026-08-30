@@ -1,0 +1,216 @@
+Phase 3 is approved and the index verification has passed.
+
+Now start **Phase 4 — Data Quality, Data Validation and Exploratory SQL Analysis**.
+
+Use the existing MySQL database:
+
+`predictive_customer_retention`
+
+Do not modify the database schema unnecessarily.
+
+## Scope of Phase 4
+
+This phase should focus ONLY on:
+
+1. Data-quality analysis
+2. Data validation
+3. Basic customer analysis
+4. Order analysis
+5. Product analysis
+6. Revenue analysis
+7. Monthly trend analysis
+8. Customer-level aggregation
+
+Do NOT start RFM analysis, cohort analysis, retention-rate calculation, churn-risk scoring, predictive risk scoring, stored procedures, or Power BI yet.
+
+## Step 1 — Data Quality Checks
+
+Create a SQL script:
+
+`06_data_quality_checks.sql`
+
+Check for:
+
+* Duplicate customer IDs
+* Duplicate product IDs
+* Duplicate order IDs
+* Duplicate order_item IDs
+* NULL values in required columns
+* Invalid customer references
+* Invalid product references
+* Invalid order references
+* Negative quantities
+* Invalid prices
+* Invalid discounts
+* Invalid dates
+* Invalid order statuses
+* Invalid payment methods
+* Inconsistent order totals
+
+For every check, return a meaningful result.
+
+Do not modify data merely to make validation pass.
+
+## Step 2 — Basic Customer Analysis
+
+Create:
+
+`07_customer_analysis.sql`
+
+Answer:
+
+1. Total customers
+2. Customers by gender
+3. Customers by age group
+4. Customers by city
+5. Customers by state
+6. Customers by customer segment
+7. Customers by signup month/year
+8. New customer trend over time
+
+Use meaningful SQL queries.
+
+## Step 3 — Order Analysis
+
+Create:
+
+`08_order_analysis.sql`
+
+Calculate:
+
+* Total orders
+* Completed orders
+* Cancelled orders
+* Other order statuses
+* Orders by month
+* Orders by customer
+* Average order value
+* Minimum order value
+* Maximum order value
+* Orders by payment method
+* Orders by customer segment
+
+## Step 4 — Product and Sales Analysis
+
+Create:
+
+`09_product_sales_analysis.sql`
+
+Calculate:
+
+* Total revenue
+* Revenue by product
+* Revenue by category
+* Revenue by sub-category
+* Quantity sold by product
+* Top 10 products by revenue
+* Top 10 products by quantity
+* Average selling price
+* Discount impact where meaningful
+
+## Step 5 — Monthly Business Trends
+
+Create:
+
+`10_monthly_trends.sql`
+
+Calculate monthly:
+
+* Orders
+* Revenue
+* Unique customers
+* Average order value
+* Completed orders
+* Cancelled orders
+
+Also calculate month-over-month changes where appropriate.
+
+Use MySQL date functions.
+
+## Step 6 — Customer-Level Summary
+
+Create:
+
+`11_customer_summary.sql`
+
+Create a customer-level result containing:
+
+* customer_id
+* customer_name
+* customer_segment
+* signup_date
+* total_orders
+* total_quantity
+* total_spend
+* average_order_value
+* first_purchase_date
+* last_purchase_date
+* days_since_last_purchase
+
+Use appropriate JOINs and aggregations.
+
+Do not calculate RFM scores yet.
+
+## Step 7 — SQL Concepts
+
+Use appropriate:
+
+* SELECT
+* WHERE
+* GROUP BY
+* HAVING
+* ORDER BY
+* CASE
+* INNER JOIN
+* LEFT JOIN
+* Aggregate functions
+* Date functions
+* Subqueries where useful
+* CTEs where useful
+* Window functions where they genuinely improve the analysis
+
+Do not use advanced SQL unnecessarily.
+
+## Step 8 — Validation
+
+After creating the scripts:
+
+* Execute/test every important query.
+* Confirm all queries run successfully in MySQL 8.0+.
+* Cross-check major totals against the source tables.
+* Ensure customer-level totals reconcile with order-level totals.
+* Ensure revenue calculations are consistent.
+
+Create:
+
+`phase4_validation.sql`
+
+and:
+
+`phase4_validation_report.md`
+
+The validation report must contain:
+
+* Queries tested
+* Pass/fail status
+* Important result counts
+* Any issues found
+* Corrections made, if any
+* Confirmation that the database is ready for advanced customer-retention analysis
+
+## Deliverables
+
+Create:
+
+06_data_quality_checks.sql
+07_customer_analysis.sql
+08_order_analysis.sql
+09_product_sales_analysis.sql
+10_monthly_trends.sql
+11_customer_summary.sql
+phase4_validation.sql
+phase4_validation_report.md
+
+Stop after Phase 4.
+
+Do NOT proceed to Phase 5 until I approve the Phase 4 results.

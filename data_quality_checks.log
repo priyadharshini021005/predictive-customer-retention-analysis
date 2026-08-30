@@ -1,0 +1,78 @@
+section	scope_statement
+PHASE4_SCOPE	Read-only data-quality validation; no data cleaning, RFM, retention, churn/risk scoring, or Power BI.
+section
+ROW_COUNT_RECONCILIATION
+check_name	actual_count	expected_count	result
+customers	8000	8000	PASS
+products	180	180	PASS
+orders	40000	40000	PASS
+order_items	116953	116953	PASS
+stg_customers	8000	8000	PASS
+stg_products	180	180	PASS
+stg_orders	40000	40000	PASS
+stg_order_items	116953	116953	PASS
+section
+PRIMARY_KEY_DUPLICATE_CHECKS
+check_name	duplicate_group_count	result
+customers.customer_id	0	PASS
+products.product_id	0	PASS
+orders.order_id	0	PASS
+order_items.order_item_id	0	PASS
+customers.customer_code	0	PASS
+products.sku	0	PASS
+orders.order_number	0	PASS
+section
+NULL_OR_BLANK_CHECKS
+check_name	invalid_count	result
+customers.required_fields	0	PASS
+products.required_fields	0	PASS
+orders.required_fields	0	PASS
+order_items.required_fields	0	PASS
+section
+CONTROLLED_DOMAIN_CHECKS
+check_name	invalid_count	result
+customers.customer_status	0	PASS
+products.product_status	0	PASS
+orders.status_reference	0	PASS
+orders.payment_reference	0	PASS
+orders.channel_reference	0	PASS
+products.category_reference	0	PASS
+section
+DATE_AND_CHRONOLOGY_CHECKS
+check_name	invalid_count	result
+orders.outside_analysis_period	0	PASS
+customers.signup_after_analysis_end	0	PASS
+orders.before_customer_signup	557	FAIL
+order_items.before_product_launch	0	PASS
+missing_completed_boundary_start	0	PASS
+missing_completed_boundary_end	0	PASS
+section
+NUMERIC_AND_FINANCIAL_CHECKS
+check_name	invalid_count	result
+products.nonpositive_unit_price	0	PASS
+products.nonpositive_cost_price	0	PASS
+products.cost_not_below_unit_price	0	PASS
+orders.negative_discount_or_shipping	0	PASS
+order_items.invalid_quantity_or_price	0	PASS
+order_items.negative_discount_or_total	0	PASS
+order_items.discount_above_gross	0	PASS
+order_items.line_total_formula_mismatch	0	PASS
+order_items.product_price_mismatch	0	PASS
+orders.discount_reconciliation_mismatch	0	PASS
+section
+REFERENTIAL_AND_COMPLETENESS_CHECKS
+check_name	invalid_count	result
+orders.orphan_customer	0	PASS
+order_items.orphan_order	0	PASS
+order_items.orphan_product	0	PASS
+orders.without_items	0	PASS
+duplicate_product_within_order	0	PASS
+section
+STATUS_AND_ELIGIBILITY_CHECKS
+status_code	is_eligible	order_count
+Completed	1	35500
+Cancelled	0	2200
+Returned	0	1300
+Pending	0	1000
+section	eligible_line_revenue	noneligible_line_revenue	completed_customers	completed_orders
+QUALITY_SUMMARY	54706775.88	6951182.81	7247	35500

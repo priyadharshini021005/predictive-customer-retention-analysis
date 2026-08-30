@@ -1,0 +1,190 @@
+Phase 2 is approved.
+
+Now start **Phase 3 — MySQL Database and Schema Creation**.
+
+Use the four generated CSV datasets from Phase 2:
+
+* customers.csv
+* products.csv
+* orders.csv
+* order_items.csv
+
+## Objective
+
+Create a professional normalized MySQL 8.0+ database for:
+
+**Predictive Customer Retention Analysis using SQL**
+
+Database name:
+
+`customer_retention_analysis`
+
+## Step 1 — Create Database
+
+Create the database and use it.
+
+## Step 2 — Create Tables
+
+Create these four core tables:
+
+### customers
+
+Columns:
+
+* customer_id — INT, PRIMARY KEY
+* customer_name — VARCHAR
+* gender — VARCHAR
+* age — INT
+* city — VARCHAR
+* state — VARCHAR
+* signup_date — DATE
+* customer_segment — VARCHAR
+
+### products
+
+Columns:
+
+* product_id — INT, PRIMARY KEY
+* product_name — VARCHAR
+* category — VARCHAR
+* sub_category — VARCHAR
+* price — DECIMAL
+
+### orders
+
+Columns:
+
+* order_id — INT, PRIMARY KEY
+* customer_id — INT, FOREIGN KEY
+* order_date — DATE
+* order_status — VARCHAR
+* payment_method — VARCHAR
+* total_amount — DECIMAL
+
+Foreign key:
+
+`orders.customer_id → customers.customer_id`
+
+### order_items
+
+Columns:
+
+* order_item_id — INT, PRIMARY KEY
+* order_id — INT, FOREIGN KEY
+* product_id — INT, FOREIGN KEY
+* quantity — INT
+* unit_price — DECIMAL
+* discount — DECIMAL
+* item_total — DECIMAL
+
+Foreign keys:
+
+`order_items.order_id → orders.order_id`
+
+`order_items.product_id → products.product_id`
+
+## Step 3 — Constraints
+
+Use appropriate:
+
+* PRIMARY KEY
+* FOREIGN KEY
+* NOT NULL
+* UNIQUE where appropriate
+* CHECK constraints where supported and useful
+
+Do not overuse constraints that could prevent valid historical data from being imported.
+
+## Step 4 — Indexes
+
+Create appropriate indexes for:
+
+* orders.customer_id
+* orders.order_date
+* order_items.order_id
+* order_items.product_id
+
+Explain the purpose of each index.
+
+## Step 5 — CSV Import
+
+Create a reliable MySQL import process for all four CSV files.
+
+The import order must respect foreign keys:
+
+1. customers
+2. products
+3. orders
+4. order_items
+
+Do not permanently disable foreign-key validation just to force an import.
+
+## Step 6 — Validation
+
+After import, validate:
+
+* Row count of every table
+* Duplicate primary keys
+* NULL values in required columns
+* Foreign-key integrity
+* Invalid customer references
+* Invalid product references
+* Invalid order references
+* Negative quantities
+* Invalid prices
+* Invalid dates
+* Order total consistency with order items
+
+Compare the imported row counts with the Phase 2 CSV files.
+
+## Step 7 — Deliverables
+
+Create these SQL files:
+
+`01_create_database.sql`
+
+`02_create_tables.sql`
+
+`03_constraints.sql`
+
+`04_indexes.sql`
+
+`05_import_data.sql`
+
+`06_database_validation.sql`
+
+Also create a schema documentation file explaining:
+
+* Table purpose
+* Column names
+* Data types
+* Primary keys
+* Foreign keys
+* Relationships
+* Indexes
+
+## Important
+
+Do NOT start RFM analysis yet.
+
+Do NOT create retention analysis yet.
+
+Do NOT create risk scoring yet.
+
+Do NOT create Power BI yet.
+
+This phase is ONLY for:
+
+**Database → Tables → Constraints → Indexes → CSV Import → Validation**
+
+At the end, provide a clear Phase 3 validation report with:
+
+* Database name
+* Table names
+* Row counts
+* Relationship validation
+* Data-quality validation
+* Import status
+* Any issues found and how they were fixed
+
+Stop after Phase 3 and wait for approval.

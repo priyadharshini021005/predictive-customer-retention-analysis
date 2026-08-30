@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "failure_count": 0,
+  "failures": [],
+  "row_counts": {
+    "customers": 8000,
+    "products": 180,
+    "orders": 40000,
+    "order_items": 116953
+  },
+  "date_range": {
+    "order_min": "2024-01-01",
+    "order_max": "2025-12-31",
+    "customer_signup_min": "2023-06-01",
+    "customer_signup_max": "2025-11-30",
+    "product_launch_min": "2023-01-01",
+    "product_launch_max": "2025-03-30"
+  },
+  "order_status_counts": {
+    "Completed": 35500,
+    "Cancelled": 2200,
+    "Returned": 1300,
+    "Pending": 1000
+  },
+  "completed_customer_count": 7247,
+  "one_time_completed_customer_count": 2197,
+  "repeat_completed_customer_count": 5050,
+  "completed_order_count": 35500,
+  "eligible_completed_revenue": "54706775.88",
+  "all_status_line_revenue": "61657958.69",
+  "validation_scope": [
+    "schema and file presence",
+    "null and blank required fields",
+    "primary-key uniqueness",
+    "business-reference uniqueness",
+    "controlled domains",
+    "date windows",
+    "foreign-key readiness",
+    "one-or-more-items-per-order",
+    "unique product per order",
+    "positive/non-negative numeric rules",
+    "line-total reconciliation",
+    "order-discount reconciliation",
+    "product-price consistency",
+    "product-launch chronology",
+    "status coverage",
+    "boundary-date coverage",
+    "behavioral coverage"
+  ]
+}

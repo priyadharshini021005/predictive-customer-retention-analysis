@@ -1,0 +1,21 @@
+check_id	observed_value	expected_value	result
+1_risk_population	7069	7069 scored eligible customers	PASS
+2_zero_purchase_exclusion	zero-purchase customers=931; scored_zero_purchase=0	zero-purchase customers may be outside scoring; scored zero-purchase customers=0	PASS
+3_total_score_bounds	0-91	0-100	PASS
+4_component_point_bounds	R=0-40; F=0-25; C=0-25; A=0-10	R=0-40; F=0-25; C=0-25; A=0-10	PASS
+5_risk_band_assignment	unassigned=0; distinct_bands=3	unassigned=0; bands between 1 and 3	PASS
+6_churn_flag_logic	mismatches=0	mismatches=0; churn_candidate_flag iff recency_days > 180	PASS
+7_overdue_cadence_logic	mismatches=0	mismatches=0; overdue iff repeat and cadence_ratio > 2	PASS
+8_explanatory_output_completeness	null_or_blank_reasons=0; null_rules=0	null_or_blank_reasons=0; null_rules=0	PASS
+9_frequency_reconciliation	risk_frequency_sum=35017; eligible_orders=35017	both=35017	PASS
+10_monetary_reconciliation	risk_monetary=53997988.41; eligible_revenue=53997988.41	both=53997988.41	PASS
+risk_band	customer_count	customer_percentage
+High Risk	2647	37.45
+Medium Risk	1305	18.46
+Low Risk	3117	44.09
+summary_name	eligible_customers	churn_candidates	inactive_90_plus	single_order_churn_candidates	repeat_customer_churn_candidates	churn_candidate_percentage
+churn_candidate_summary	7069	2491	3468	1810	681	35.24
+check_id	exception_orders	exception_customers	exception_line_revenue	result
+chronology_exception_preservation	557	404	834047.20	PASS
+check_id	views_created	routines_created	result
+PHASE6_SCOPE_BOUNDARY	0	0	PASS

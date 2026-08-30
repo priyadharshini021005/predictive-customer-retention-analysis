@@ -1,0 +1,32 @@
+{
+  "seed": 20260821,
+  "analysis_start": "2024-01-01",
+  "analysis_end": "2025-12-31",
+  "reference_date": "2025-12-31",
+  "row_counts": {
+    "customers": 8000,
+    "products": 180,
+    "orders": 40000,
+    "order_items": 116953
+  },
+  "profile_counts": {
+    "loyal": 1000,
+    "regular": 2500,
+    "prospect": 500,
+    "occasional": 2000,
+    "dormant": 1500,
+    "one_time": 500
+  },
+  "order_status_counts": {
+    "Completed": 35500,
+    "Cancelled": 2200,
+    "Returned": 1300,
+    "Pending": 1000
+  },
+  "generated_files": [
+    "/home/ubuntu/Predictive Customer Retention Analysis using SQL/data/raw/customers.csv",
+    "/home/ubuntu/Predictive Customer Retention Analysis using SQL/data/raw/products.csv",
+    "/home/ubuntu/Predictive Customer Retention Analysis using SQL/data/raw/orders.csv",
+    "/home/ubuntu/Predictive Customer Retention Analysis using SQL/data/raw/order_items.csv"
+  ]
+}
