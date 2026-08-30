@@ -1,8 +1,0 @@
-required_column	covering_index	indexed_columns	result
-order_items.order_id	idx_order_items_order_id	order_id	PASS
-order_items.order_id	idx_order_items_order_id	order_id	PASS
-order_items.product_id	idx_order_items_product_id	product_id	PASS
-orders.customer_id	idx_orders_customer_date	customer_id, order_date	PASS
-orders.order_date	idx_orders_date	order_date	PASS
-check_name	result
-NO_INDEX_CREATION_REQUIRED	PASS
