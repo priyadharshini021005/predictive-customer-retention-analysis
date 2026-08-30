@@ -1,7 +1,0 @@
-required_access_path	expected_index	observed_index_columns	result
-orders.customer_id	idx_orders_customer_date	1:customer_id,2:order_date	PASS
-orders.order_date	idx_orders_date	1:order_date	PASS
-order_items.order_id	idx_order_items_order_id	1:order_id	PASS
-order_items.product_id	idx_order_items_product_id	1:product_id	PASS
-check_id	separately_created_phase16_indexes	result
-NO_REDUNDANT_INDEX_CREATION	0	PASS
